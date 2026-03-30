@@ -15,7 +15,7 @@ fn main() {
     // This is the game loop
     while !handler.window_should_close() {
 
-        // Update state here unless you've delegated the work to another thread
+        // Update state here
 
         let mut draw_handler: RaylibDrawHandle<'_> = handler.begin_drawing(&thread);
 
