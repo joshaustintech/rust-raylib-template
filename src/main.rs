@@ -2,8 +2,8 @@ use raylib::prelude::*;
 
 fn main() {
 
-    let screen_width: i32  = 1920;
-    let screen_height: i32 = 1080;
+    let screen_width: i32  = 800;
+    let screen_height: i32 = 600;
 
     let (mut handler, thread) = raylib::init()
         .size(screen_width, screen_height)
